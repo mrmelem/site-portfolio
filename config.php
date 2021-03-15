@@ -16,7 +16,4 @@ spl_autoload_register('myAutoLoad');
 
 define('INCLUDE_PATH', '/site-portfolio/');
 define('STYLES_PATH', INCLUDE_PATH . 'src/pages/');
-define('HOST', 'localhost');
-define('DB', 'db_portfolio');
-define('USER', 'root');
-define('PASS', '');
+include("./bin/keys.php");
