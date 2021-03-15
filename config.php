@@ -24,4 +24,3 @@ define('INCLUDE_PATH', '/site-portfolio/');
 define('STYLES_PATH', INCLUDE_PATH . 'src/pages/');
 include("./bin/keys.php");
 new Email();
-die();
